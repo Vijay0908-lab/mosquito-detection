@@ -1,0 +1,20 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Ignore cache and log files in all folders
+*.cache
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Keep all data, runs, and videos folders, but you can add more specific ignores if needed
+# (e.g., to ignore only large or temporary files inside them)
+
+# Ignore result video output (regenerated on inference)
+result.mp4
