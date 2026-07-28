@@ -16,12 +16,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Header Section
-st.title("Mosquito detection hub", text_alignment="center")
-st.write(
-    "An interactive computer vision platform powered by YOLO to identify and localize mosquitoes in images, videos, and live feeds.",
-    text_alignment="center"
-)
+st.markdown("<h1 style='text-align: center;'>Mosquito detection hub</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #94a3b8;'>An interactive computer vision platform powered by YOLO to identify and localize mosquitoes in images, videos, and live feeds.</p>", unsafe_allow_html=True)
 st.space("large")
 
 # Find available model paths
