@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+primaryColor = "#0284c7"
+backgroundColor = "#0f172a"
+secondaryBackgroundColor = "#1e293b"
+textColor = "#f8fafc"
+borderColor = "#334155"
+baseRadius = "8px"
+buttonRadius = "6px"
+
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+linkUnderline = false
+showWidgetBorder = true
+showSidebarBorder = true
